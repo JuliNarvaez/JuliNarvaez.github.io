@@ -9,6 +9,9 @@
     grid-auto-flow: column;
     grid-template-columns: 1fr minmax(auto,960px) minmax(auto,400px) 1fr;
     padding: 0 20px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
 
     &__bar {
         grid-column: 3/4;
