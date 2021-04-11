@@ -1,18 +1,36 @@
 .about {
     display: grid;
     grid-template-columns: 1fr auto min-content 1fr;
+    align-items: flex-end;
+    column-gap: 35px;
+    margin-top: 200px;
 
-    &__avatar{
-        grid-column: 2/3;  
-        height: 527px;
+    &__rectangle {
+        grid-column: 2/3;
+        position: relative;
+
+    }
+
+    &__rectbg {}
+
+    &__avatar {
+        height: auto;
         width: 438px;
+        position: absolute;
+        z-index: 1;
+        top: -64px;
+        left: 90px;
+        mask: url(../assets/avatarshape.svg) no-repeat;
+        mask-position: 53% 100%;
+
     }
 
-    &__info{
+    &__info {
         grid-column: 3/4;
+        padding-bottom: 10px;
     }
 
-    &__pretitle{
+    &__pretitle {
         font-weight: var(--font-bold);
         font-size: 24px;
         color: var(--primary-color);
@@ -26,7 +44,7 @@
         line-height: 60px;
     }
 
-    &__subtitle:nth-child(4){
+    &__subtitle:nth-child(4) {
         color: var(--primary-color);
         border-bottom: 1px solid var(--primary-color);
         width: max-content;
@@ -35,16 +53,16 @@
         margin-bottom: 40px;
     }
 
-    &__subtitle{
+    &__subtitle {
         font-size: 34.75px;
         font-weight: var(--font-light);
         color: var(--type-color);
         text-align: right;
         line-height: 40px;
-        
+
     }
 
-    &__description{
+    &__description {
         box-sizing: border-box;
         font-size: 18px;
         font-weight: var(--font-light);
@@ -54,7 +72,30 @@
         text-align: right;
     }
 
-    &__buttons{
+    &__buttons {
         text-align: right;
+        padding-top: 30px;
+    }
+
+    &__contact {
+        background: none;
+        border: none;
+        color: var(--primary-color);
+        text-align: center;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: var(--font-bold);
+        margin-right:45px;
+    }
+
+    &__cta{
+        background-color: var(--primary-color);
+        color: var(--white-color);
+        font-size: 14px;
+        font-weight: var(--font-bold);
+        height: 40px;
+        width: 150px;
+        border: none;
+        border-radius: 4px ;
     }
 }
