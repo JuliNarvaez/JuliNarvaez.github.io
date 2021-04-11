@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42.667" height="90" viewBox="0 0 42.667 90">
+  <g id="Grupo_79" data-name="Grupo 79" transform="translate(-1038 -1742)">
+    <text id="Figma" transform="translate(1059 1828)" fill="#51b698" font-size="14" font-family="KumbhSans-Light, Kumbh Sans" font-weight="300"><tspan x="-20.426" y="0">Figma</tspan></text>
+    <g id="figma-1" transform="translate(1038.273 1742)">
+      <path id="Trazado_90" data-name="Trazado 90" d="M10.6,221.2a10.6,10.6,0,0,0,10.6-10.6V200H10.6a10.6,10.6,0,0,0,0,21.2Z" transform="translate(0 -157.607)" fill="#51b698"/>
+      <path id="Trazado_91" data-name="Trazado 91" d="M0,110.6A10.6,10.6,0,0,1,10.6,100H21.2v21.2H10.6A10.6,10.6,0,0,1,0,110.6Z" transform="translate(0 -78.803)" fill="#51b698"/>
+      <path id="Trazado_92" data-name="Trazado 92" d="M0,10.6A10.6,10.6,0,0,1,10.6,0H21.2V21.2H10.6A10.6,10.6,0,0,1,0,10.6Z" transform="translate(0 0)" fill="#51b698"/>
+      <path id="Trazado_93" data-name="Trazado 93" d="M100,0h10.6a10.6,10.6,0,0,1,0,21.2H100Z" transform="translate(-78.803 0)" fill="#51b698"/>
+      <path id="Trazado_94" data-name="Trazado 94" d="M121.2,110.6A10.6,10.6,0,1,1,110.6,100,10.6,10.6,0,0,1,121.2,110.6Z" transform="translate(-78.803 -78.803)" fill="#51b698"/>
+    </g>
+  </g>
+</svg>
