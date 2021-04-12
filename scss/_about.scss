@@ -10,13 +10,19 @@
         position: relative;
 
     }
+
+    &__rectbg {
+        svg {
+            filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+    }
+    }
     
     &__avatar {
         height: auto;
         width: 438px;
         position: absolute;
         z-index: 1;
-        top: -64px;
+        top: -65px;
         left: 90px;
         mask: url(../assets/avatarshape.svg) no-repeat;
         mask-position: 53% 100%;

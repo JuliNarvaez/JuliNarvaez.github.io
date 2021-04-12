@@ -5,8 +5,9 @@
     justify-content: space-around;
     width: 25px;
     top: 50%;
-    left: 15%;
+    left: 5%;
     position: fixed;
+    z-index: 1;
 
     svg {
         width: 100%;
