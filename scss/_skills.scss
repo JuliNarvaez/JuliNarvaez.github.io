@@ -88,18 +88,19 @@
         font-size: 18px;
         font-weight: var(--font-light);
         color: var(--type-color);
-        margin-top: 90px;
     }
 
     &__web-text {
         grid-column: 2/3;
         grid-row: 1/2;
+        padding-top: 90px;
     }
 
     &__design-text {
         grid-column: 4/5;
         grid-row: 1/2;
         text-align: right;
+        padding-top: 90px;
     }
 
     &__icons {
@@ -112,7 +113,8 @@
         margin-top: 105px;
         padding: 0;
         align-items: end;
-        justify-items: flex-start;
+        justify-items: center;
+        padding-top: 90px;
 
         li {
 
@@ -123,7 +125,6 @@
 
     &__icons:nth-child(5) {
         grid-column: 4/5;
-        justify-items: flex-end;
     }
 
     &__line{
@@ -133,5 +134,11 @@
         background-color: var(--primary-color);
         height: 100%;
         width: 1px;
+    }
+
+    button {
+        display: block;
+        margin: 0 auto;
+        margin-top: 100px;
     }
 }
