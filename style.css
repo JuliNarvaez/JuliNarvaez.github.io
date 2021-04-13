@@ -540,6 +540,10 @@ h1, h2, h3 {
   padding-top: 90px;
 }
 
+.skills__web-text span {
+  font-weight: var(--font-bold);
+}
+
 @media all and (max-width: 1024px) {
   .skills__web-text {
     -ms-grid-column: 1;

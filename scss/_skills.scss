@@ -138,6 +138,10 @@
         grid-row: 1/2;
         padding-top: 90px;
 
+        span{
+            font-weight: var(--font-bold);
+        }
+
         @include mq (1024px) {
             grid-column: 1/2;
             grid-row: 1/2;
