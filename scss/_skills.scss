@@ -94,6 +94,10 @@
         grid-template-columns: 1fr 300px 40px;
         grid-template-rows: 240px;
         overflow: hidden;
+
+        @include mq (600px) {
+            grid-template-columns: 1fr 1fr 40px;
+        }
     }
 
     &__web-bar {
@@ -211,7 +215,11 @@
         }
 
         &__bars {
-            grid-template-columns: 40px 300px 1fr
+            grid-template-columns: 40px 300px 1fr;
+
+            @include mq (600px) {
+                grid-template-columns: 40px 1fr 1fr ;
+            }
         }
     }
 
@@ -238,6 +246,10 @@
             margin-top: 0;
             padding: 0;
             width: 500px;
+        }
+
+        @include mq (600px) {
+            width: 100%;
         }
     }
 

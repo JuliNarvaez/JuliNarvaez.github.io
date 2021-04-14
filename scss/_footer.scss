@@ -29,18 +29,33 @@
             height: auto;
         }
 
+        @include mq (600px) {
+            grid-row: 1/2;
+        }
+
     }
 
-    &__date{
+    &__date {
         grid-column: 4/5;
         display: flex;
         justify-content: center;
         align-items: center;
         font-size: 20px;
         color: var(--white-color);
+
+        @include mq (600px) {
+            grid-column: 2/3;
+            grid-row: 2/3;
+        }
+
     }
 
     @include mq (1024px) {
-        border-radius: 50px 50px 0 0 ;
+        border-radius: 50px 50px 0 0;
+    }
+
+    @include mq (600px) {
+        grid-template-columns: 1fr auto 1fr;
+        grid-template-rows: 1fr 1fr;
     }
 }
