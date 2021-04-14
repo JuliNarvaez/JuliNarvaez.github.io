@@ -160,14 +160,11 @@ h1, h2, h3 {
   }
 }
 
-.about__rectbg {
-  width: 100%;
-  height: auto;
-}
-
 @media all and (max-width: 450px) {
   .about__rectbg {
     display: none;
+    width: 100%;
+    height: auto;
   }
 }
 

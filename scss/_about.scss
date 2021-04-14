@@ -35,11 +35,12 @@
     }
 
     &__rectbg {
-        width: 100%;
-        height: auto;
+        
 
         @include mq (450px) {
             display: none;
+            width: 100%;
+        height: auto;
         }
     }
 
