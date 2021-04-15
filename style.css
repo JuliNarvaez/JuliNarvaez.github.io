@@ -138,6 +138,11 @@ body.dark-theme .social-media .svg__primary {
   cursor: pointer;
 }
 
+.button__cta a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .toggle {
   right: 0;
   margin: 15px;
