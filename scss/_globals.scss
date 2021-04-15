@@ -3,7 +3,7 @@
     line-height: 150%;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -13,9 +13,30 @@ body {
     background: rgb(222, 222, 222);
     background-repeat: no-repeat;
     background: linear-gradient(-45deg, rgba(222, 222, 222, 1) 0%, rgba(244, 244, 244, 1) 100%);
-    
+
 }
 
-h1, h2, h3{
+h1,
+h2,
+h3 {
     margin: 0;
+}
+
+body.dark-theme {
+    --primary-color: #b65151;
+    --type-color: #ffffff;
+    --background-color: #333333;
+    background: #3B3B3B;
+
+    .about__avatar {
+        content: url("../assets/JulianNarvaez4R.png");
+    }
+
+    .svg__primary {
+        fill: var(--primary-color);
+    }
+
+    .svg__white{
+        fill: var(--type-color);
+    }
 }

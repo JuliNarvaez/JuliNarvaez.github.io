@@ -25,8 +25,29 @@ body {
   background: linear-gradient(-45deg, #dedede 0%, #f4f4f4 100%);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   margin: 0;
+}
+
+body.dark-theme {
+  --primary-color: #b65151;
+  --type-color: #ffffff;
+  --background-color: #333333;
+  background: #3B3B3B;
+}
+
+body.dark-theme .about__avatar {
+  content: url("../assets/JulianNarvaez4R.png");
+}
+
+body.dark-theme .svg__primary {
+  fill: var(--primary-color);
+}
+
+body.dark-theme .svg__white {
+  fill: var(--type-color);
 }
 
 .nav {
@@ -564,7 +585,7 @@ h1, h2, h3 {
 }
 
 .skills__circle {
-  background-color: var(--white-color);
+  background-color: var(--background-color);
   height: 155px;
   width: 155px;
   display: -webkit-box;
