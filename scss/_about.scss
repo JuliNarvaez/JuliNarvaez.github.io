@@ -49,8 +49,8 @@
         width: 438px;
         position: absolute;
         z-index: 1;
-        top: -65px;
-        left: 90px;
+        top: -64px;
+        left: 91px;
         mask: url(../assets/avatarshape.svg) no-repeat;
         mask-position: 53% 100%;
 
@@ -163,22 +163,30 @@
     &__buttons {
         text-align: right;
         padding-top: 30px;
+        cursor: pointer;
 
         @include mq (1024px) {
             text-align: center;
             margin-left: none;
 
         }
+
+
     }
 
     &__contact {
         background: none;
         border: none;
-        color: var(--primary-color);
         text-align: center;
         text-decoration: none;
         font-size: 18px;
         font-weight: var(--font-bold);
         margin-right: 45px;
+
+        a {
+            text-decoration: none;
+            color: var(--primary-color);
+        }
+
     }
 }
