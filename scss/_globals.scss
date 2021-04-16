@@ -1,11 +1,7 @@
-@mixin bg-transition ($trans) {
-    transition: $trans .5s ease-in-out;
-}
-
 * {
     font-family: 'Kumbh Sans', sans-serif;
     line-height: 150%;
-    transition: all .5s ease;
+    transition: all 1s ease-out;
 }
 
 html {
