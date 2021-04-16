@@ -14,6 +14,10 @@ body {
     background: rgb(222, 222, 222);
     background-repeat: no-repeat;
     background: linear-gradient(-45deg, rgba(222, 222, 222, 1) 0%, rgba(244, 244, 244, 1) 100%);
+    
+    .social-media .svg__primary {
+        fill: var(--type-color);
+    }
 }
 
 h1,
@@ -41,6 +45,6 @@ body.dark-theme {
     }
 
     .social-media .svg__primary {
-        fill: #fff;
+        fill: var(--type-color);
     }
 }

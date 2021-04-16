@@ -27,6 +27,10 @@ body {
   background: linear-gradient(-45deg, #dedede 0%, #f4f4f4 100%);
 }
 
+body .social-media .svg__primary {
+  fill: var(--type-color);
+}
+
 h1,
 h2,
 h3 {
@@ -53,7 +57,7 @@ body.dark-theme .svg__white {
 }
 
 body.dark-theme .social-media .svg__primary {
-  fill: #fff;
+  fill: var(--type-color);
 }
 
 .nav {
