@@ -17,8 +17,8 @@
         transform: initial;
         left: $left;
         right: $right;
+        transition: background-color 1s ease-out;
     }
-
 }
 
 .skills-container {

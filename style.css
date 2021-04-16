@@ -590,6 +590,8 @@ body.dark-theme .social-media .svg__primary {
           transform: initial;
   left: -25%;
   right: none;
+  -webkit-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
 }
 
 .skills__design-bar {
@@ -616,6 +618,8 @@ body.dark-theme .social-media .svg__primary {
           transform: initial;
   left: none;
   right: -25%;
+  -webkit-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
 }
 
 .skills__intersection {
