@@ -11,6 +11,8 @@
 * {
   font-family: 'Kumbh Sans', sans-serif;
   line-height: 150%;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
 }
 
 html {
@@ -18,8 +20,6 @@ html {
 }
 
 body {
-  -webkit-transition: .5s ease;
-  transition: .5s ease;
   margin: 0;
   padding: 0;
   background: #dedede;

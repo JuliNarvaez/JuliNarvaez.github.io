@@ -5,6 +5,7 @@
 * {
     font-family: 'Kumbh Sans', sans-serif;
     line-height: 150%;
+    transition: all .5s ease;
 }
 
 html {
@@ -12,7 +13,6 @@ html {
 }
 
 body {
-    transition: .5s ease;
     margin: 0;
     padding: 0;
     background: rgb(222, 222, 222);
