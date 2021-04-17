@@ -31,4 +31,8 @@
       var(--offset-diagonal) calc(var(--offset-diagonal) * -1) 0 var(--ray-size),
     ;
   }
+
+  &:hover{
+    color: var(--primary-color);
+  }
 }

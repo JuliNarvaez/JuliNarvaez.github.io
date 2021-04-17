@@ -16,4 +16,11 @@
     @include mq (1024px) {
         display: none;
     }
+
+    a:hover {
+        .svg__primary{
+            fill: var(--primary-color);
+            transition: fill 0.2s ease;
+        }
+    }
 }
